@@ -32,7 +32,7 @@ function VWO() {
 			</div>
 			<div className="pb-10">
 
-				{curriculum && curriculum["curriculum"]["vwo"].map((year, index) => {
+				{curriculum && curriculum["curriculum"]["vwo"].map((year: any, index: any) => {
 					return (
 						<div key={index}>
 							<h2 className="mt-8 mb-2 text-3xl font-bold mx-auto w-1/2 border border text-center"> {year["name"]} </h2>
