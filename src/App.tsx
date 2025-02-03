@@ -7,7 +7,7 @@ import HAVO from "./pages/HAVO.tsx";
 function App() {
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename={process.env.PUBLIC_URL}>
 				<div className="flex">
 					<div className="fixed">
 						<SideBar />
