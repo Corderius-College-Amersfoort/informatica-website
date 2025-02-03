@@ -1,0 +1,164 @@
+{
+	"projects": [
+		{
+			"name": "Website",
+			"subject": "HTML, CSS, JavaScript",
+			"description": "Je gaat voor het eerst beginnen met programmeren, je leert de basis van HTML, CSS en JavaScript. Je gaat als eindopdracht een website maken over iets wat je interesseert of leuk vindt."
+		},
+		{
+			"name": "2D Game",
+			"subject": "Python",
+			"description": "Je gaat een 2D game maken met Python, door dit te doen leer je aan de hand van een game maken Python. Het is een leuke manier om te leren door te doen. Het speciale is dat het programma waarmee je dit gaat doen is gemaakt op onze school."
+		},
+		{
+			"name": "Robotica",
+			"subject": "MicroPython",
+			"description": "Je gaat door met Python maar nu in het echt, door een robot to programmeren met Python. Je leert principes binnen robotica en ook dit is gemaakt door een van je medeleerlingen!"
+		},
+		{
+			"name": "Cybersecurity",
+			"subject": "Internet",
+			"description": "Je gaat leren over hoe je jezelf kan beschermen op het internet, je leert over de gevaren en hoe je jezelf kan beschermen. Je gaat ook onderzoeken hoe veilig internet nou echt is."
+		},
+		{
+			"name": "Game Design",
+			"subject": "GDScript",
+			"description": "Je gaat weer een game maken, deze keer ga je vooral focussen op Game Design, en beginnen met een nieuwe taal. GDScript lijkt een beetje op JavaScript en Python die je al hebt geleerd."
+		},
+		{
+			"name": "Artificial Intelligence",
+			"subject": "Python",
+			"description": "Je gaat leren over Artificial Intelligence, wat je ermee kan doen. Hoe je het kan gebruiken en hoe je het kan maken. Je gaat ook zelf een AI trainen."
+		},
+		{
+			"name": "Full Stack Web Development",
+			"subject": "HTML, CSS, JavaScript, Node.js, Express, MongoDB",
+			"description": "Je gaat weer een website maken, deze keer met een back-end. Je leert hoe je een server kan maken en hoe je een database kan gebruiken, met login van gebruikers en data opslaan."
+		},
+		{
+			"name": "Algoritmiek",
+			"subject": "Python",
+			"description": "Je gaat leren over algoritmes, hoe ze werken en hoe je ze kan maken. Je gaat ook leren hoe je ze kan optimaliseren en hoe je ze kan gebruiken in je eigen projecten."
+		},
+		{
+			"name": "Meesterproef",
+			"subject": "",
+			"description": "Eigen keuze, je mag zelf een onderwerp kiezen die past bij JOUW studiekeuze/toekomstige baan. Je mag zelf kiezen welke technieken je wilt gebruiken en hoe je het wilt aanpakken."
+		}
+	],
+	"curriculum": {
+		"vwo": [
+			{
+				"name": "VWO 4",
+				"periods": [
+					{
+						"name": "Periode 1",
+						"projects": [
+							0
+						]
+					},
+					{
+						"name": "Periode 2",
+						"projects": [
+							1
+						]
+					},
+					{
+						"name": "Periode 3",
+						"projects": [
+							2,3
+						]
+					},
+					{
+						"name": "Periode 4",
+						"projects": [
+							4
+						]
+					}
+				]
+			},
+			{
+				"name": "VWO 5",
+				"periods": [
+					{
+						"name": "Periode 1",
+						"projects": [
+							5
+						]
+					},
+					{
+						"name": "Periode 2 & 3 & 4",
+						"projects": [
+							6
+						]
+					}
+				]
+			},
+			{
+				"name": "VWO 6",
+				"periods": [
+					{
+						"name": "Periode 1",
+						"projects": [
+							7
+						]
+					},
+					{
+						"name": "Periode 2 & 3",
+						"projects": [
+							8
+						]
+					}
+				]
+			}
+		],
+		"havo": [
+			{
+				"name": "HAVO 4",
+				"periods": [
+					{
+						"name": "Periode 1",
+						"projects": [
+							0
+						]
+					},
+					{
+						"name": "Periode 2",
+						"projects": [
+							1
+						]
+					},
+					{
+						"name": "Periode 3",
+						"projects": [
+							2,3
+						]
+					},
+					{
+						"name": "Periode 4",
+						"projects": [
+							4
+						]
+					}
+				]
+			},
+			{
+				"name": "HAVO 5",
+				"periods": [
+					{
+						"name": "Periode 1",
+						"projects": [
+							5
+						]
+					},
+					{
+						"name": "Periode 2 & 3",
+						"projects": [
+							8
+						]
+					}
+				]
+			}
+		]
+	}
+}

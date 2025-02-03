@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+:root {
+	color: #cc0e44;
+}
+
+.corderius-red {
+	color: #cc0e44;
+}
