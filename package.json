@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://corderius-college-amersfoort.github.io/informatica-website/",
+	"homepage": "https://corderius-college-amersfoort.github.io/informatica-website",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
