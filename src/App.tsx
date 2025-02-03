@@ -14,9 +14,9 @@ function App() {
 					</div>
 					<div style={{padding: "20px", flexGrow: 1}}>
 						<Routes>
-							<Route path="/" element={<Home/>}/>
-							<Route path="/vwo" element={<VWO/>}/>
-							<Route path="/havo" element={<HAVO/>}/>
+							<Route exact path="/" element={<Home/>}/>
+							<Route exact path="/vwo" element={<VWO/>}/>
+							<Route exact path="/havo" element={<HAVO/>}/>
 						</Routes>
 					</div>
 				</div>
