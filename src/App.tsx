@@ -7,16 +7,16 @@ import HAVO from "./pages/HAVO.tsx";
 function App() {
 	return (
 		<>
-			<BrowserRouter basename={process.env.PUBLIC_URL}>
+			<BrowserRouter>
 				<div className="flex">
 					<div className="fixed">
 						<SideBar />
 					</div>
 					<div style={{padding: "20px", flexGrow: 1}}>
 						<Routes>
-							<Route exact path="/" element={<Home/>}/>
-							<Route exact path="/vwo" element={<VWO/>}/>
-							<Route exact path="/havo" element={<HAVO/>}/>
+							<Route path="/informatica-website/" element={<Home/>}/>
+							<Route path="/informatica-website/vwo" element={<VWO/>}/>
+							<Route path="/informatica-website/havo" element={<HAVO/>}/>
 						</Routes>
 					</div>
 				</div>

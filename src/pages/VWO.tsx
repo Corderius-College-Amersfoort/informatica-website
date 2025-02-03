@@ -8,7 +8,7 @@ function VWO() {
 	const [selectedProject, setSelectedProject] = useState<{name: string, description: string} | null>(null);
 
 	useEffect(() => {
-		fetch("/curriculum.json")
+		fetch("/informatica-website/curriculum.json")
 			.then(response => response.json())
 			.then(data => {
 				setCurriculum(data);

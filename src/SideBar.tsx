@@ -7,9 +7,9 @@ export default function SideBar() {
 		<Menu>
 			<a href={"https://corderius.nl"}><img className="w-9/10 pt-1 pl-1" src={corderiusLogo}
 												  alt="Corderius Logo"></img></a>
-			<MenuItem className="pt-1" component={<Link to={"/"}/>}> Home </MenuItem>
-			<MenuItem component={<Link to={"/vwo"} />}> Informatica op VWO </MenuItem>
-			<MenuItem component={<Link to={"/havo"} />}> Informatica op HAVO </MenuItem>
+			<MenuItem className="pt-1" component={<Link to={"/informatica-website/"}/>}> Home </MenuItem>
+			<MenuItem component={<Link to={"/informatica-website/vwo"} />}> Informatica op VWO </MenuItem>
+			<MenuItem component={<Link to={"/informatica-website/havo"} />}> Informatica op HAVO </MenuItem>
 		</Menu>
 	</Sidebar> );
 }
