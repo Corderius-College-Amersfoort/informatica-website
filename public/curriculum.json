@@ -13,7 +13,7 @@
 		{
 			"name": "Robotica",
 			"subject": "MicroPython",
-			"description": "Je gaat door met Python maar nu in het echt, door een robot to programmeren met Python. Je leert principes binnen robotica en ook dit is gemaakt door een van je medeleerlingen!"
+			"description": "Je gaat door met Python maar nu in het echt, door een robot to programmeren met Python. Je leert principes binnen robotica en ook dit is gemaakt door een van je medeleerlingen! [<a href='www.nos.nl'>a</a>]"
 		},
 		{
 			"name": "Cybersecurity",
@@ -22,17 +22,17 @@
 		},
 		{
 			"name": "Game Design",
-			"subject": "GDScript",
-			"description": "Je gaat weer een game maken, deze keer ga je vooral focussen op Game Design, en beginnen met een nieuwe taal. GDScript lijkt een beetje op JavaScript en Python die je al hebt geleerd."
+			"subject": "Godot",
+			"description": "Je gaat weer een game maken, deze keer ga je vooral focussen op Game Design, en beginnen met een game engine Godot. De taal (GDScript) lijkt een beetje op JavaScript en Python die je al hebt geleerd."
 		},
 		{
-			"name": "Artificial Intelligence",
+			"name": "Data Science",
 			"subject": "Python",
-			"description": "Je gaat leren over Artificial Intelligence, wat je ermee kan doen. Hoe je het kan gebruiken en hoe je het kan maken. Je gaat ook zelf een AI trainen."
+			"description": "Je gaat leren over Data Science. Hoe je het kan gebruiken en hoe je het kan maken. Als je het leuk vindt, kun je zelfs een AI trainen."
 		},
 		{
-			"name": "Full Stack Web Development",
-			"subject": "HTML, CSS, JavaScript, Node.js, Express, MongoDB",
+			"name": "Groep: Full Stack Web Development",
+			"subject": "HTML, CSS, p5.js, flask, MongoDB",
 			"description": "Je gaat weer een website maken, deze keer met een back-end. Je leert hoe je een server kan maken en hoe je een database kan gebruiken, met login van gebruikers en data opslaan."
 		},
 		{
@@ -44,6 +44,16 @@
 			"name": "Meesterproef",
 			"subject": "",
 			"description": "Eigen keuze, je mag zelf een onderwerp kiezen die past bij JOUW studiekeuze/toekomstige baan. Je mag zelf kiezen welke technieken je wilt gebruiken en hoe je het wilt aanpakken."
+		},
+		{
+			"name": "Eigen idee",
+			"subject": "",
+			"description": "Wil je je toch liever verdiepen in Robotica of Cybersecurity of zelfs nog iets anders? Bij een goed idee is er veel mogelijk!"
+		},
+		{
+			"name": "Groep: Game Design deel 2",
+			"subject": "Godot",
+			"description": "Met Godot kun je erg veel. We kunnen een veel grotere en ingewikkeldere 2D game maken of de stap maken naar 3D."
 		}
 	],
 	"curriculum": {
@@ -81,15 +91,23 @@
 				"name": "VWO 5",
 				"periods": [
 					{
-						"name": "Periode 1",
+						"name": "Domein 1",
 						"projects": [
 							5
 						]
 					},
 					{
-						"name": "Periode 2 & 3 & 4",
+						"name": "Domein 2",
 						"projects": [
-							6
+							6,
+							9					
+						]
+					},
+					{
+						"name": "Domein 3",
+						"projects": [
+							10,
+							9				
 						]
 					}
 				]
