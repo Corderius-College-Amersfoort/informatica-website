@@ -91,20 +91,20 @@
 				"name": "VWO 5",
 				"periods": [
 					{
-						"name": "Domein 1",
+						"name": "Periode 1",
 						"projects": [
 							5
 						]
 					},
 					{
-						"name": "Domein 2",
+						"name": "Periode 2 & 3",
 						"projects": [
 							6,
 							9					
 						]
 					},
 					{
-						"name": "Domein 3",
+						"name": "Periode 3 & 4",
 						"projects": [
 							10,
 							9				
