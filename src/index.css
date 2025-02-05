@@ -7,3 +7,9 @@
 .corderius-red {
 	color: #cc0e44;
 }
+
+.desc a {
+	color: blue;
+	text-underline: #cc0e44;
+	text-decoration: underline;
+}

@@ -21,7 +21,7 @@ function HAVO() {
 			<Dialog open={selectedProject !== null} onClose={() => setSelectedProject(null)}>
 				<DialogPanel className="fixed bg-gray-200 border border-2 rounded-2xl inset-0 w-1/3 h-1/4  mx-auto my-auto p-4">
 					<DialogTitle className="text-2xl text-center">{selectedProject?.name}</DialogTitle>
-					<Description className="pt-2">{selectedProject?.description}</Description>
+					<Description className="pt-2 desc" dangerouslySetInnerHTML={{__html: selectedProject?.description}}></Description>
 				</DialogPanel>
 			</Dialog>
 			<div>

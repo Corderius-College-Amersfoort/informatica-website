@@ -13,7 +13,7 @@
 		{
 			"name": "Robotica",
 			"subject": "MicroPython",
-			"description": "Je gaat door met Python maar nu in het echt, door een robot to programmeren met Python. Je leert principes binnen robotica en ook dit is gemaakt door een van je medeleerlingen! [<a href='www.nos.nl'>a</a>]"
+			"description": "Je gaat door met Python maar nu in het echt, door een robot to programmeren met Python. Je leert principes binnen robotica en ook dit is gemaakt door een van je medeleerlingen! <a href='www.nos.nl'>a</a>"
 		},
 		{
 			"name": "Cybersecurity",
@@ -100,14 +100,14 @@
 						"name": "Periode 2 & 3",
 						"projects": [
 							6,
-							9					
+							9
 						]
 					},
 					{
 						"name": "Periode 3 & 4",
 						"projects": [
 							10,
-							9				
+							9
 						]
 					}
 				]

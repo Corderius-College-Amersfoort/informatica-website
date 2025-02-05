@@ -22,7 +22,7 @@ function VWO() {
 				<div className="fixed bg-gray-200 border border-2 rounded-2xl inset-0 flex w-1/3 h-1/4 content-center mx-auto my-auto justify-center p-4">
 					<DialogPanel>
 						<DialogTitle>{selectedProject?.name}</DialogTitle>
-						<Description>{selectedProject?.description}</Description>
+						<Description className="pt-2 desc" dangerouslySetInnerHTML={{__html: selectedProject?.description}}></Description>
 					</DialogPanel>
 				</div>
 			</Dialog>
