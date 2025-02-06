@@ -19,7 +19,7 @@ function VWO() {
 	return (
 		<div className="mx-auto w-9/20 h-lvh">
 			<Dialog open={selectedProject !== null} onClose={() => setSelectedProject(null)}>
-				<div className="fixed bg-gray-200 border border-2 rounded-2xl inset-0 flex w-1/3 h-1/4 content-center mx-auto my-auto justify-center p-4">
+				<div className="fixed bg-gray-200 border border-2 rounded-2xl inset-0 flex w-1/3 info-modal content-center mx-auto my-auto justify-center p-4">
 					<DialogPanel>
 						<DialogTitle>{selectedProject?.name}</DialogTitle>
 						<Description className="pt-2 desc" dangerouslySetInnerHTML={{__html: selectedProject?.description}}></Description>

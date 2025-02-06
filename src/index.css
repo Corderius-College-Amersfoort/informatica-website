@@ -13,3 +13,7 @@
 	text-underline: #cc0e44;
 	text-decoration: underline;
 }
+
+.info-modal {
+	height: fit-content;
+}
