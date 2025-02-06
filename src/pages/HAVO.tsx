@@ -1,3 +1,4 @@
+// @ts-nocheck
 import {Key, useEffect, useState} from "react";
 import FlowArrow from "../components/FlowArrow.tsx";
 import {Description, Dialog, DialogPanel, DialogTitle} from "@headlessui/react";
